@@ -1,0 +1,25 @@
+{
+  "name": "rss-lookup",
+  "version": "1.0.0",
+  "description": "Get the feed link and type of any website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rss",
+    "find",
+    "lookup",
+    "atom",
+    "feed"
+  ],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "parse-domains": "^1.0.1",
+    "random-ua": "0.0.6",
+    "request": "^2.69.0",
+    "valid-url": "^1.0.9"
+  }
+}
